@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-rucenter",
+  "version": "0.0.1",
+  "description": "Конфиг eslint для фронтэнд-разработки в Ru-Center Group. В значительной степени основан на конфиге от airbnb",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ru-center-group/eslint-config-rucenter.git"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^11.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.8.0"
+  }
+}
