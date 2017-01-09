@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rucenter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Конфиг eslint для фронтэнд-разработки в Ru-Center Group. В значительной степени основан на конфиге от airbnb",
   "repository": {
     "type": "git",
