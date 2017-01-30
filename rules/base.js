@@ -19,9 +19,6 @@ module.exports = {
     // экранирование символов в строках
     'no-useless-escape': 'warning',
 
-    // разрешение на использование вставки в html
-    'react/no-danger': 'off',
-
     // кавычки вокруг полей внутри объектных литералов
     'quote-props': ['error', 'as-needed'],
 
