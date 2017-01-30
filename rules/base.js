@@ -22,7 +22,10 @@ module.exports = {
     // разрешение на использование вставки в html
     'react/no-danger': 'off',
 
+    // кавычки вокруг полей внутри объектных литералов
+    'quote-props': ['error', 'as-needed'],
+
     // максимальная длина строки
-    'max-len': 'off'
+    'max-len': 'off',
   }
 };
