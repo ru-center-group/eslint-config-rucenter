@@ -23,12 +23,21 @@ module.exports = {
     'no-plusplus': 'off',
 
     // экранирование символов в строках
-    'no-useless-escape': 'warning',
+    'no-useless-escape': 1,
+
+    // разрешение на использование вставки в html
+    'react/no-danger': 'off',
 
     // кавычки вокруг полей внутри объектных литералов
     'quote-props': ['error', 'as-needed'],
 
     // максимальная длина строки
     'max-len': 'off',
+
+    // отступы внутри объектных литералов
+    'object-curly-spacing': [1, 'never'],
+
+    // запятые в конце перечислений
+    'comma-dangle': ['error', 'never'],
   }
 };
