@@ -25,9 +25,6 @@ module.exports = {
     // экранирование символов в строках
     'no-useless-escape': 1,
 
-    // разрешение на использование вставки в html
-    'react/no-danger': 'off',
-
     // кавычки вокруг полей внутри объектных литералов
     'quote-props': ['error', 'as-needed'],
 
@@ -39,5 +36,14 @@ module.exports = {
 
     // запятые в конце перечислений
     'comma-dangle': ['error', 'never'],
+
+    // переносы строк
+    'linebreak-style': 'off',
+
+    // при возможности использовать default export
+    'prefer-default-export': 'off',
+
+    // методы классов не могут не использовать this
+    'class-methods-use-this': 'off'
   }
 };

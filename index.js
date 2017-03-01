@@ -7,5 +7,9 @@ module.exports = {
   ].map(require.resolve),
   rules: {
     "strict": 0
+  },
+  globals: {
+    "window": true,
+    "process": true
   }
 };
