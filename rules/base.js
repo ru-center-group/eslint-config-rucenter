@@ -41,7 +41,7 @@ module.exports = {
     'linebreak-style': 'off',
 
     // при возможности использовать default export
-    'prefer-default-export': 'off',
+    'import/prefer-default-export': 'off',
 
     // методы классов не могут не использовать this
     'class-methods-use-this': 'off'
