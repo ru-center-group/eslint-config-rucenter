@@ -97,7 +97,7 @@ module.exports = {
 
     // Enforce spaces before the closing bracket of self-closing JSX elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': ['error', 'always'],
+    'react/jsx-space-before-closing': ['error', 'never'],
 
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
@@ -149,7 +149,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
     'react/jsx-tag-spacing': ['error', {
       closingSlash: 'never',
-      beforeSelfClosing: 'always',
+      beforeSelfClosing: 'never',
       afterOpening: 'never'
     }],
   },

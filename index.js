@@ -10,6 +10,8 @@ module.exports = {
   },
   globals: {
     "window": true,
-    "process": true
+    "process": true,
+    "location": true,
+    "document": true
   }
 };
