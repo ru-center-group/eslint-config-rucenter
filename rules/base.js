@@ -44,6 +44,9 @@ module.exports = {
     'import/prefer-default-export': 'off',
 
     // методы классов не могут не использовать this
-    'class-methods-use-this': 'off'
+    'class-methods-use-this': 'off',
+
+    // множественное присваивание
+    'no-multi-assign': 'error'
   }
 };
